@@ -1,0 +1,19 @@
+{
+  "name": "demo-template",
+  "private": true,
+  "scripts": {
+    "commit": "cz"
+  },
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.7"
+  }
+}
